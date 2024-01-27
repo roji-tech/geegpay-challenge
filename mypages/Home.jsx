@@ -396,7 +396,7 @@ const MyLink = ({ text, onClick, color = "#34caa5" }) => {
     lineHeight: "26px",
   };
   return (
-    <p style={styles} onClick={onClick}>
+    <p style={styles} className="_pointer" onClick={onClick}>
       {text ?? ""}
     </p>
   );
